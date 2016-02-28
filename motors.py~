@@ -55,6 +55,11 @@ class Motors:
     def exit(self):
         GPIO.cleanup()
 
+GPIO.setmode(GPIO.BOARD)
 
 
+motors = Motors()
 
+motors.go(Motors.RIGHT_WHEEL, Motors.FORWARD, 2)
+
+motors.exit()
