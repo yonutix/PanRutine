@@ -6,7 +6,7 @@ class Motors:
     Motor1A = 16
     Motor1B = 18
     Motor2A = 22
-    Motor2B = 24
+    Motor2B = 40
     
     LEFT_WHEEL = 1
     RIGHT_WHEEL = 2
